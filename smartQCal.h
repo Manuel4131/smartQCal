@@ -9,6 +9,13 @@ class smartQCAL : public QWidget
 
 public:
     smartQCAL(QWidget *parent = 0);
+private slots:
+void add();
+void substract();
+void multiply();
+void divide();
+
+
     ~smartQCAL();
 };
 
